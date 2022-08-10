@@ -1,11 +1,10 @@
 package com.ciandt.feedfront.employee;
 
 
-import com.ciandt.feedfront.exceptions.ArquivoException;
-import com.ciandt.feedfront.exceptions.ComprimentoInvalidoException;
-import com.ciandt.feedfront.exceptions.EmailInvalidoException;
-import com.ciandt.feedfront.exceptions.EmployeeNaoEncontradoException;
-import com.ciandt.feedfront.models.Employee;
+import com.ciandt.feedfront.excecoes.ArquivoException;
+import com.ciandt.feedfront.excecoes.ComprimentoInvalidoException;
+import com.ciandt.feedfront.excecoes.EmailInvalidoException;
+import com.ciandt.feedfront.excecoes.EmployeeNaoEncontradoException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

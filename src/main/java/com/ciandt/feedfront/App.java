@@ -1,10 +1,10 @@
 package com.ciandt.feedfront;
 
-import com.ciandt.feedfront.models.Employee;
-import com.ciandt.feedfront.exceptions.ArquivoException;
-import com.ciandt.feedfront.exceptions.ComprimentoInvalidoException;
-import com.ciandt.feedfront.exceptions.EmailInvalidoException;
-import com.ciandt.feedfront.exceptions.EmployeeNaoEncontradoException;
+import com.ciandt.feedfront.employee.Employee;
+import com.ciandt.feedfront.excecoes.ArquivoException;
+import com.ciandt.feedfront.excecoes.ComprimentoInvalidoException;
+import com.ciandt.feedfront.excecoes.EmailInvalidoException;
+import com.ciandt.feedfront.excecoes.EmployeeNaoEncontradoException;
 
 /**
  * Hello world!
