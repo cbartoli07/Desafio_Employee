@@ -1,9 +1,9 @@
-package com.ciandt.feedfront.employee;
+package com.ciandt.feedfront.models;
 
-import com.ciandt.feedfront.excecoes.ArquivoException;
-import com.ciandt.feedfront.excecoes.ComprimentoInvalidoException;
-import com.ciandt.feedfront.excecoes.EmailInvalidoException;
-import com.ciandt.feedfront.excecoes.EmployeeNaoEncontradoException;
+import com.ciandt.feedfront.exceptions.ArquivoException;
+import com.ciandt.feedfront.exceptions.ComprimentoInvalidoException;
+import com.ciandt.feedfront.exceptions.EmailInvalidoException;
+import com.ciandt.feedfront.exceptions.EmployeeNaoEncontradoException;
 
 import java.io.*;
 import java.nio.file.Files;
