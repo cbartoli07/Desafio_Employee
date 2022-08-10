@@ -1,4 +1,4 @@
-package com.ciandt.feedfront.excecoes;
+package com.ciandt.feedfront.exceptions;
 
 import java.io.IOException;
 
