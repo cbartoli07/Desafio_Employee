@@ -1,4 +1,7 @@
 package com.ciandt.feedfront.exceptions;
 
-public class EntidadeNaoSerializavelException extends Exception {
+public class EntidadeNaoSerializavelException extends BusinessException {
+    public EntidadeNaoSerializavelException(String message) {
+        super(message);
+    }
 }
